@@ -23,10 +23,8 @@ migrate_working_dir/
 !/.idea/zulip.iml
 !/android/.idea/inspectionProfiles/
 
-# The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
-#.vscode/
 
 # Claude Code related
 /.claude/settings.local.json
@@ -64,3 +62,7 @@ lib/credential_fixture.dart
 # Per-developer Lima VM config (references .lima/zulip-flutter.yaml via
 # `base:` and adds the workspace mount). See docs/howto/lima.md for usage.
 /.lima/local.yaml
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
